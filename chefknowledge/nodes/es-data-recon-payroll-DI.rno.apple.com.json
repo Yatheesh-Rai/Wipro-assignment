@@ -1,6 +1,0 @@
-{
-  "run_list": [
-	"recipe[recon-sync::Recon-payroll]",
-	"recipe[recon-sync::Recon-payroll-bulk]"
-  ]
-}

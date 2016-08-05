@@ -1,5 +1,0 @@
-{
-  "run_list": [
-	"recipe[es-data-comptransactions::es-comp-oracle-extractor-bulk-deploy]"
-  ]
-}

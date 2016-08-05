@@ -1,5 +1,0 @@
-{
-  "run_list": [
-	"recipe[es-benefit-transaction::es-benefits-oracle-extractor-bulk-deploy]"
-  ]
-}

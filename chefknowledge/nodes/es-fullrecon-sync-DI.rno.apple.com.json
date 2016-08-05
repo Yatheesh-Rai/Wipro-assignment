@@ -1,6 +1,0 @@
-{
-  "run_list": [
-	"recipe[fullrecon::fullrecon-app-deploy]",
-	"recipe[fullrecon::fullrecon-web-deploy]"
-  ]
-}

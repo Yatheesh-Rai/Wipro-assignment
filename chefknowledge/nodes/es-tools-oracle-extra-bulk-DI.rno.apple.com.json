@@ -1,5 +1,0 @@
-{
-  "run_list": [
-	"recipe[es-tools::es-merlin-tools-oracle-extractor-bulk-deploy]"
-  ]
-}
