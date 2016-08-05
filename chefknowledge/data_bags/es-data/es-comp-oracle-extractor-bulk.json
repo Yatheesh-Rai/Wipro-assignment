@@ -1,0 +1,12 @@
+{
+  "id" : "es-comp-oracle-extractor-bulk",
+  "jenkins": {
+    "job_url": "http://rn2-empsysd-lapp145.rno.apple.com:8080/jenkins/view/ESMerlinAdmin/job/ESMerlinAdmin_git_exe_CompTransactions_Dev",
+    "build": "lastStableBuild",
+    "artifact_name": "es-comp-oracle-extractor"
+  },
+  "deployment" : {
+    "directory_name" : "es-comp-oracle-extractor-bulk",
+    "property_name"  : "es-comp-oracle-extractor-bulk"
+  }
+}

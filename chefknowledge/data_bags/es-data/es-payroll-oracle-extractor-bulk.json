@@ -1,0 +1,12 @@
+{
+  "id" : "es-payroll-oracle-extractor-bulk",
+  "jenkins": {
+    "job_url": "http://rn2-empsysd-lapp145.rno.apple.com:8080/jenkins/view/ESMerlinAdmin/job/ESMerlinAdmin_git_exe_Payroll_Dev",
+    "build": "lastStableBuild",
+    "artifact_name": "es-payroll-oracle-extractor"
+  },
+  "deployment" : {
+    "directory_name" : "es-payroll-oracle-extractor-bulk",
+    "property_name"  : "es-payroll-oracle-extractor-bulk"
+  }
+}

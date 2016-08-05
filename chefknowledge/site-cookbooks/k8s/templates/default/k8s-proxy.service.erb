@@ -1,0 +1,12 @@
+[Unit]
+Description=Kubernetes Minion
+Before=k8s-node.service
+
+[Service]
+Restart=on-failure 
+RestartSec=5s
+ExecStart=/usr/local/bin/hyperkube proxy --master=<%= @API_SERVER %> --v=2
+
+[Install]
+WantedBy=multi-user.target 
+

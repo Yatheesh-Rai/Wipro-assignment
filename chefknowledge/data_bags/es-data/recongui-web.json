@@ -1,0 +1,12 @@
+{
+  "id" : "recongui-web",
+  "jenkins": {
+    "job_url": "http://rn2-empsysd-lapp145.rno.apple.com:8080/jenkins/view/All/job/ESMerlinAdmin_git_exe_recon-UI",
+    "build": "lastStableBuild",
+    "artifact_name": "recongui-web"
+  },
+  "deployment" : {
+    "directory_name" : "Recongui-web",
+    "property_name"  : "Recongui-web"
+  }
+}

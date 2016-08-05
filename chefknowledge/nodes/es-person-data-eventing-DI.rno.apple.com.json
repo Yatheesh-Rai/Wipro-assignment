@@ -1,0 +1,5 @@
+{
+  "run_list": [
+	"recipe[es-person-service::es-person-mongo-extractor-deploy]"
+  ]
+}

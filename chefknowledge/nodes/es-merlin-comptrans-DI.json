@@ -1,0 +1,17 @@
+{
+  "empsys-common" : {
+        "java_version" : "jdk64-1.8.0_91",
+	"jenkins": {
+		"job_url"       : "http://rn2-empsysd-lapp145.rno.apple.com:8080/jenkins/view/ESMerlinAdmin/job/ESMerlinAdmin_git_exe_CompTransactions_Q1",
+		"build"         : "lastStableBuild",
+		"artifact_name" : "es-comp-service"
+	}
+  },
+  "run_list": [
+	"recipe[empsys-common]",
+	"recipe[empsys-common::install-java]",
+	"recipe[empsys-common::download-artifact]",
+	"recipe[empsys-common::property-overwrite]",
+	"recipe[empsys-common::restart-service]"
+  ]
+}

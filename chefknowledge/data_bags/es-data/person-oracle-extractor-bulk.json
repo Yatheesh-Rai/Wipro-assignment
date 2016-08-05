@@ -1,0 +1,12 @@
+{
+  "id" : "person-oracle-extractor-bulk",
+  "jenkins": {
+    "job_url": "http://rn2-empsysd-lapp145.rno.apple.com:8080/jenkins/view/ESMerlinAdmin/job/ESMerlinAdmin_git_exe_PersonService",
+    "build": "lastStableBuild",
+    "artifact_name": "person-oracle-extractor"
+  },
+  "deployment" : {
+    "directory_name" : "es-person-oracle-extractor-bulk",
+    "property_name"  : "es-person-oracle-extractor-bulk"
+  }
+}

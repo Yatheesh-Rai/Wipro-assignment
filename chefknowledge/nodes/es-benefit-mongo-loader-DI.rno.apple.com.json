@@ -1,0 +1,5 @@
+{
+  "run_list": [
+	"recipe[es-benefit-transaction::es-benefits-mongo-loader-deploy]"
+  ]
+}

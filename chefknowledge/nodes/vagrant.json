@@ -1,0 +1,9 @@
+{
+  "empsys-common" : {
+	"app_user" : "vagrant",
+        "java_package" : "java-1.8.0-openjdk"
+  },
+  "run_list": [
+	"recipe[empsys-common]"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id" : "es-g2-kronos",
+  "jenkins": {
+    "job_url": "http://rn2-empsysd-lapp145.rno.apple.com:8080/jenkins/view/G2/job/G2_git_exe_Engine/",
+    "build": "lastStableBuild",
+    "artifact_name": "g2-kronos"
+  },
+  "deployment" : {
+    "directory_name" : "g2-kronos",
+    "property_name"  : "g2-kronos"
+  }
+
+}

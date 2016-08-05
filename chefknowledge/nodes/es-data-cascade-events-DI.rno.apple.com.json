@@ -1,0 +1,5 @@
+{
+  "run_list": [
+	"recipe[es-cascade-events::data-cascade-events-deploy]"
+  ]
+}

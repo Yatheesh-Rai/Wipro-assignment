@@ -1,0 +1,12 @@
+{
+  "id" : "fullrecon-web",
+  "jenkins": {
+    "job_url": "http://rn2-empsysd-lapp145.rno.apple.com:8080/jenkins/view/All/job/FullRecon_git_exec_fullrecon",
+    "build": "lastStableBuild",
+    "artifact_name": "fullrecon-web"
+  },
+  "deployment" : {
+    "directory_name" : "fullrecon-web",
+    "property_name"  : "full-recon-web"
+  }
+}

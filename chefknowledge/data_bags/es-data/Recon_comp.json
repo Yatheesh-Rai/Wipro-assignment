@@ -1,0 +1,12 @@
+{
+  "id" : "Recon_comp",
+  "jenkins": {
+    "job_url": "http://rn2-empsysd-lapp145.rno.apple.com:8080/jenkins/view/All/job/ESMerlinAdmin_git_exe_recon-sync",
+    "build": "lastStableBuild",
+    "artifact_name": "recon-app"
+  },
+  "deployment" : {
+    "directory_name" : "Recon_comp",
+    "property_name"  : "Recon_comp"
+  }
+}

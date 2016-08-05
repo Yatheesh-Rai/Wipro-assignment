@@ -1,0 +1,6 @@
+{
+  "run_list": [
+	"recipe[recon-sync::Recon-estools]",
+	"recipe[recon-sync::Recon-estools-bulk]"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id" : "es-merlin-facade-service",
+  "jenkins": {
+    "job_url": "http://rn2-empsysd-lapp145.rno.apple.com:8080/jenkins/view/ESMerlinAdmin/job/ESMerlinAdmin_git_exe_Facade_Q1",
+    "build": "lastStableBuild",
+    "artifact_name": "es-merlin-facade-service"
+  },
+  "deployment" : {
+    "directory_name" : "es-merlin-facade-service",
+    "property_name"  : "es-merlin-facade-service"
+  }
+}

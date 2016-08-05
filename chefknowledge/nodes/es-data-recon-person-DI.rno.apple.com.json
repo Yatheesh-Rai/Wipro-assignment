@@ -1,0 +1,6 @@
+{
+  "run_list": [
+	"recipe[recon-sync::Recon-person]",
+	"recipe[recon-sync::Recon-person-bulk]"
+  ]
+}

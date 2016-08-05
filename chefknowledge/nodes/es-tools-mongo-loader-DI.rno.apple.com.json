@@ -1,0 +1,5 @@
+{
+  "run_list": [
+	"recipe[es-tools::es-merlin-tools-mongo-loader-deploy]"
+  ]
+}

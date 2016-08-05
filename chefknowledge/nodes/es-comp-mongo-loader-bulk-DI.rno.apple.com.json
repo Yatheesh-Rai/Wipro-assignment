@@ -1,0 +1,5 @@
+{
+  "run_list": [
+	"recipe[es-data-comptransactions::es-comp-mongo-loader-bulk-deploy]"
+  ]
+}

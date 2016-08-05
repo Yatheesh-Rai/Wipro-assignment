@@ -1,0 +1,12 @@
+{
+  "id" : "es-benefits-mongo-loader",
+  "jenkins": {
+    "job_url": "http://rn2-empsysd-lapp145.rno.apple.com:8080/jenkins/view/ESMerlinAdmin/job/ESMerlinAdmin_git_exe_BenefitTransactions_Dev",
+    "build": "lastStableBuild",
+    "artifact_name": "es-benefits-mongo-loader"
+  },
+  "deployment" : {
+    "directory_name" : "es-benefits-mongo-loader",
+    "property_name"  : "es-benefits-mongo-loader"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id" : "es-merlin-routing",
+  "jenkins": {
+    "job_url": "http://rn2-empsysd-lapp145.rno.apple.com:8080/jenkins/view/ESMerlinAdmin/job/ESMerlinAdmin_git_exe_Routing/",
+    "build": "lastStableBuild",
+    "artifact_name": "ESRoutingService"
+  },
+  "deployment" : {
+    "directory_name" : "ESRoutingService",
+    "property_name"  : "ESRoutingService"
+  }
+}

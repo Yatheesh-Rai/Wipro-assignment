@@ -1,0 +1,14 @@
+[Unit]
+Description=Flanneld overlay address etcd agent
+#Before=docker.service
+After=docker.service
+
+[Service]
+Type=notify
+Restart=on-failure 
+RestartSec=5s
+ExecStart=/usr/local/bin/flanneld --etcd-endpoints=<%= @ETCD_SERVER %> --ip-masq=true
+
+[Install]
+WantedBy=multi-user.target 
+

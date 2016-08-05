@@ -1,0 +1,12 @@
+{
+  "id" : "es-merlin-tools-service",
+  "jenkins": {
+    "job_url": "http://rn2-empsysd-lapp145.rno.apple.com:8080/jenkins/view/ESMerlinAdmin/job/ESMerlinAdmin_git_exe_Tools_Q1/",
+    "build": "lastStableBuild",
+    "artifact_name": "es-merlin-tools-service"
+  },
+  "deployment" : {
+    "directory_name" : "es-merlin-tools-service",
+    "property_name"  : "es-merlin-tools-service"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "empsys-common" : {
+        "java_version" : "jdk64-1.8.0_91",
+	"jenkins": {
+		"job_url"       : "http://rn2-empsysd-lapp145.rno.apple.com:8080/jenkins/view/G2/job/G2_git_exe_Engine",
+		"build"         : "lastStableBuild",
+		"artifact_name" : "g2-config"
+	}
+  },
+  "run_list": [
+	"recipe[empsys-common]",
+	"recipe[empsys-common::install-java]",
+	"recipe[empsys-common::download-artifact]"
+  ]
+}
